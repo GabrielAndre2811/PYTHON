@@ -7,7 +7,7 @@ base_menor = entradas[1]
 altura = entradas[2]
 
 base_triangulo = (base_maior - base_menor) / 2
-area_triangulo = (base_triangulo * altura) / 2
+area_triangulo = (base_triangulo * altura) / 3
 area_total_triangulos = area_triangulo * 2
 area_retangulo = base_menor * altura
 area_total = area_total_triangulos + area_retangulo
